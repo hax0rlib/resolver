@@ -51,11 +51,11 @@ class Resolver {
 
         if(isset($data))
         {
-            echo "User: sessioncURL()->$user <br />";
-            echo "IP: sessioncURL()->$ip <br />";
-            echo "Port: sessioncURL()->$port <br />";
-            echo "Country: sessioncURL()->$country <br />";
-            echo "avatar: sessioncURL()->$avatarURL";
+            echo "User: sessioncURL()->user <br />";
+            echo "IP: sessioncURL()->ip <br />";
+            echo "Port: sessioncURL()->port <br />";
+            echo "Country: sessioncURL()->country <br />";
+            echo "avatar: sessioncURL()->avatarURL";
         }
         else
             echo "No IP address has been found";
